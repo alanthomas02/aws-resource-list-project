@@ -29,7 +29,7 @@ aws_service=$2
 
 # check if aws cli is installed
 
-if [ !  command -v &> /dev/null ]; then
+if [ !  command -v aws &> /dev/null ]; then
 	echo "AWS CLI is not installed"
 	exit 1
 fi
